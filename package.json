@@ -1,0 +1,29 @@
+{
+  "name": "swipe-event-class",
+  "version": "1.0.0",
+  "description": "javascript class to handle swipe events",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rimraf dist && parcel index.html",
+    "serve": "rimraf dist && parcel serve index.html",
+    "build": "rimraf dist && parcel build index.html --public-url ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joxx/swipe-event-class.git"
+  },
+  "keywords": [
+    "swipe",
+    "javascript"
+  ],
+  "author": "joachim kliemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joxx/swipe-event-class/issues"
+  },
+  "homepage": "https://github.com/joxx/swipe-event-class#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2"
+  }
+}
